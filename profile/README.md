@@ -21,6 +21,11 @@ Once the url is shared, b2p will generate the audio using the AI platform you co
 
 <img src="https://i.imgur.com/gZ4m6GE.png" alt="Overcast on iOS" width="300"/>
 
+## Requirements
+- Discord Server that you manage (So you can add a bot)
+- Discord Bot (For passing URLs to blog2pod and receiving notifications)
+- API Key for OpenAI, Azure OpenAI, or ElevenLabs
+
 ## Installation
 
 ### Discord Bot Setup
@@ -128,8 +133,33 @@ networks: {}
 | `POD_AUTHOR`        | b2pserve  | Yes                              | Author of your published podcast                                                                                                                |
 
 ### iOS Shortcut Setup (Optional, but recommended)
+
+#### Create a Discord Webhook
+##### Step 1: Open Discord and Select a Server
+1. Open Discord and navigate to the server where you want to create the webhook.
+2. You must have the necessary permissions (typically, **Manage Webhooks** or **Administrator**) to create a webhook in the server.
+
+##### Step 2: Go to Server Settings
+1. Click the server name at the top of the channel list to open the server dropdown menu.
+2. Select **"Server Settings"**.
+
+##### Step 3: Create a Webhook
+1. In the left sidebar under the **"Settings"** menu, click **"Integrations"**.
+2. On the **"Integrations"** page, you'll see a section for **Webhooks**.
+3. Click the **"Create Webhook"** button.
+
+##### Step 4: Customize the Webhook
+1. **Webhook Name**: Enter a name for your webhook. This is the name that will appear when the webhook sends messages.
+2. **Webhook Icon**: You can upload an image to use as the webhook’s avatar.
+3. **Channel**: Choose the channel where the webhook will post messages. This is the channel that the webhook will send data to when triggered.
+4. Once you've configured the webhook, click **"Copy Webhook URL"** to copy the webhook URL. This URL is what you'll use to send data to Discord.
+
+##### Step 5: Save Webhook Settings
+1. After copying the webhook URL, click **"Save"** to save your new webhook.
+
+#### Configure the iOS Shortcut
 1. Install the Shortcut using [this link](https://www.icloud.com/shortcuts/b68364e6e3874254b10f231a3b68a17e)
-2. Configure your Discord Webhook URL
+2. Enter your Discord Webhook URL
 <img src="https://i.imgur.com/ZxWa5jP.png" alt="Image" width="300"/>
 
 ## Pre-release disclaimer
