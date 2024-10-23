@@ -19,7 +19,7 @@ The simplest way to do this consistently is to set up a shortcut on iOS (or the 
 
 Once the url is shared, b2p will generate the audio using the AI platform you configured during setup (Today, b2p supports OpenAI, [ElevenLabs](https://elevenlabs.io/?from=tylerplesetz8843), and Azure OpenAI) and publish it to your podcast feed
 
-<img src="https://i.imgur.com/gZ4m6GE.png" alt="Image" width="300"/>
+<img src="https://i.imgur.com/gZ4m6GE.png" alt="Overcast on iOS" width="300"/>
 
 ## Installation
 
