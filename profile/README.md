@@ -13,7 +13,7 @@ The "frontend" of blog2pod is a Discord bot. To send an article to b2p for proce
 <img src="https://i.imgur.com/JxiS0mD.png" alt="Image" width="500"/>
 
 
-The simplest way to do this consistently is to set up a shortcut on iOS (or the Android equivalent) to share the URL through a Discord Webhook. Here is my [shortcut template](https://www.icloud.com/shortcuts/b68364e6e3874254b10f231a3b68a17e) for iOS. This gives you the ability to send articles to b2p right from your device's built in share sheet
+The simplest way to do this consistently is to set up a shortcut on iOS (or the Android equivalent) to share the URL through a Discord Webhook. Here is my [shortcut template](https://www.icloud.com/shortcuts/b68364e6e3874254b10f231a3b68a17e) for iOS. This gives you the ability to send articles to b2p right from your device's built in share sheet. Detailed instructions on all of this can be found below.
 
 <img src="https://i.imgur.com/Q9wsq5C.png" alt="Image" width="300"/>
 
