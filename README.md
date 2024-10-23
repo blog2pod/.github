@@ -28,11 +28,12 @@ Once the url is shared, b2p will generate the audio using the AI platform you co
 [Docker Hub Link](https://hub.docker.com/r/tylerplesetz/blog2pod)
 
 #### Image Tags
-tylerplesetz/blog2pod:latest = **Azure OpenAI**
+| Docker Image Tag                    | AI Platform     |
+|-------------------------------------|-----------------|
+| `tylerplesetz/blog2pod:latest`      | **Azure OpenAI** |
+| `tylerplesetz/blog2pod:oai`         | **OpenAI**       |
+| `tylerplesetz/blog2pod:el`          | **ElevenLabs**   |
 
-tylerplesetz/blog2pod:oai = **OpenAI**
-
-tylerplesetz/blog2pod:el = **ElevenLabs**
 
 ```yaml
 version: "3.3"
