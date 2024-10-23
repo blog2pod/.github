@@ -8,7 +8,7 @@ The main reason I created b2p is to give myself a hands free option for listenin
 blog2pod brings the articles you want to listen to right to your preferred podcast player, which have been designed specifically for listening to spoken-word audio, so they have all the controls you might want. Voice boost, silence skipping, playback speed adjustments, etc..
 
 ## How it works
-The "frontend" of blog2pod is a Discord bot. To send an article to b2p for processing, you just need to send the url as a message in a channel where the bot is active, prepended with !blog2pod. For example:
+The "frontend" of blog2pod is a [Discord Bot](#create-a-discord-bot). To send an article to b2p for processing, you just need to send the url as a message in a channel where the bot is active, prepended with !blog2pod. For example:
 
 <img src="https://i.imgur.com/JxiS0mD.png" alt="Image" width="500"/>
 
