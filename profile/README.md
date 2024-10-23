@@ -21,9 +21,9 @@ Once the url is shared, b2p will generate the audio using the AI platform you co
 
 <img src="https://i.imgur.com/gZ4m6GE.png" alt="Overcast on iOS" width="300"/>
 
-## Requirements
+## Prerequisites
+Before starting, make sure you have:
 - Discord Server that you manage (So you can add a bot)
-- Discord Bot (For passing URLs to blog2pod and receiving notifications)
 - Docker (to run the blog2pod backend)
 - API Key for OpenAI, Azure OpenAI, or ElevenLabs (So articles can be converted to audio)
 
