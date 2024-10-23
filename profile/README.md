@@ -77,7 +77,8 @@ Before starting, make sure you have:
 
 #### Docker Links
 [blog2pod](https://hub.docker.com/r/tylerplesetz/blog2pod)
-[blog2pod](https://hub.docker.com/r/tylerplesetz/b2pserve)
+
+[b2pserve](https://hub.docker.com/r/tylerplesetz/b2pserve)
 
 #### Image Tags
 | Docker Image Tag                    | AI Platform     |  Source Code    |
