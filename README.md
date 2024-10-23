@@ -24,6 +24,9 @@ Once the url is shared, b2p will generate the audio using the AI platform you co
 ## Installation
 
 ### Docker Compose
+
+[Docker Hub Link](https://hub.docker.com/r/tylerplesetz/blog2pod)
+
 #### Image Tags
 tylerplesetz/blog2pod:latest = **Azure OpenAI**
 
