@@ -24,7 +24,48 @@ Once the url is shared, b2p will generate the audio using the AI platform you co
 ## Installation
 
 ### Discord Bot Setup
-1. 
+#### Step 1: Create a Discord Application
+1. Go to the [Discord Developer Portal](https://discord.com/developers/applications).
+2. Log in with your Discord account if you haven't already.
+3. Click the **"New Application"** button in the top-right corner.
+4. In the popup window:
+   - Enter a name for your application (this will be the bot's name).
+   - Click **"Create"**.
+5. You will now be redirected to the application's settings page.
+
+#### Step 2: Create a Bot for Your Application
+1. On the left sidebar, click the **"Bot"** tab.
+2. Click the **"Add Bot"** button.
+   - A confirmation popup will appear. Click **"Yes, do it!"** to confirm.
+3. Your bot is now created, and you'll see some settings for your bot.
+
+#### Step 3: Customize the Bot Settings (Optional)
+1. **Bot Icon**: You can upload an avatar for your bot by clicking on the bot icon image.
+2. **Username**: By default, the bot's username will match the application name. You can change this by clicking the name.
+3. **Public Bot**: You can control whether other people can invite your bot to their servers by toggling the "Public Bot" option.
+
+#### Step 4: Collect the Bot Token
+1. In the **"Bot"** section of your application, you'll see a section labeled **"Token"**.
+   - Click the **"Reset Token"** button to generate a new token.
+   - **Warning**: Keep this token secret, as anyone with it can control your bot.
+2. After generating the token, click the **"Copy"** button to save it. You will need this token later to authenticate the bot when running it.
+
+#### Step 5: Assign Permissions and Invite the Bot to a Server
+1. On the left sidebar, click **"OAuth2"**.
+2. Under the **"OAuth2 URL Generator"**:
+   - In the **"Scopes"** section, select the **"bot"** checkbox.
+   - In the **"Bot Permissions"** section, select the permissions your bot will need, such as:
+     - `VIEW_CHANNELS`
+     - `SEND_MESSAGES`
+     - `MANAGE_MESSAGES`
+     - `READ_MESSAGE_HISTORY`
+     - `MENTION_EVERYONE`
+     - `USE_SLASH_COMMANDS`
+3. At the bottom of the page, a **"Generated URL"** will appear. Copy this URL.
+4. Open a new browser tab and paste the URL into the address bar. This will take you to a page where you can invite the bot to a server.
+5. Choose a server where you have administrative privileges and click **"Authorize"**.
+
+> **Note**: Make sure to keep the token private and avoid sharing it publicly.
 
 ### Docker Compose
 
