@@ -23,6 +23,9 @@ Once the url is shared, b2p will generate the audio using the AI platform you co
 
 ## Installation
 
+### Discord Bot Setup
+1. 
+
 ### Docker Compose
 
 [Docker Hub Link](https://hub.docker.com/r/tylerplesetz/blog2pod)
@@ -82,9 +85,6 @@ networks: {}
 | `POD_DESCRIPTION`   | b2pserve  | Yes                              | Description of your published podcast                                                                                                           |
 | `POD_IMAGE`         | b2pserve  | Yes                              | Artwork for your published podcast                                                                                                              |
 | `POD_AUTHOR`        | b2pserve  | Yes                              | Author of your published podcast                                                                                                                |
-
-### Discord Bot Setup
-1. 
 
 ### iOS Shortcut Setup
 1. Install the Shortcut using [this link](https://www.icloud.com/shortcuts/b68364e6e3874254b10f231a3b68a17e)
