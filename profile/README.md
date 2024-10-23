@@ -27,9 +27,9 @@ Before starting, make sure you have:
 - Docker (to run the blog2pod backend)
 - API Key for OpenAI, Azure OpenAI, or ElevenLabs (So articles can be converted to audio)
 
-## Installation
+## Setup
 
-### Discord Bot Setup
+### Create a Discord Bot
 #### Step 1: Create a Discord Application
 1. Go to the [Discord Developer Portal](https://discord.com/developers/applications).
 2. Log in with your Discord account if you haven't already.
