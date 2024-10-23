@@ -3,7 +3,7 @@
 ## What it does
 blog2pod is a self-hosted application that converts web articles and blogs to audio files using AI-based Text-to-Speech (TTS) technology, and then publishes the resulting MP3 files as a podcast feed for you to consume in your podcast player of your choice!
 
-The main reason I created b2p is to give myself a hands free option for listening to articles in the car. My favorite "read it later" app is Reeder, which doesn't offer an option to listen to the articles in your feed, and the apps that do have that capability, don't integrate with CarPlay or Android Auto for easy selection and playback
+The main reason I created b2p is to give myself a hands free option for listening to articles in the car. My favorite "read it later" app is [Reeder](https://reederapp.com), which doesn't offer an option to listen to the articles in your feed, and the apps that do have that capability, don't integrate with CarPlay or Android Auto for easy selection and playback
 
 blog2pod brings the articles you want to listen to right to your preferred podcast player, which have been designed specifically for listening to spoken-word audio, so they have all the controls you might want. Voice boost, silence skipping, playback speed adjustments, etc..
 
