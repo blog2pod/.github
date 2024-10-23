@@ -9,13 +9,13 @@ blog2pod brings the articles you want to listen to right to your preferred podca
 
 ## How it works
 The "frontend" of blog2pod is a Discord bot. To send an article to b2p for processing, you just need to send the url to a channel where the bot is active, prepended with !blog2pod. For example:
-  ![[CleanShot 2024-10-23 at 10.21.17@2x.png]]
+![](https://i.imgur.com/JxiS0mD.png)
 
 The simplest way to do this consistently is to set up a shortcut on iOS (or the Android equivalent) to share the URL through a Discord Webhook. Here is my [shortcut template](https://www.icloud.com/shortcuts/b68364e6e3874254b10f231a3b68a17e) for iOS. This gives you the ability to send articles to b2p right from your device's built in share sheet
-  ![[Screenshot 2024-10-23 at 10.20.29 AM.jpeg.png]]
+![](https://i.imgur.com/Q9wsq5C.png)
 
 Once the url is shared, b2p will generate the audio using the AI platform you configured during setup (Today, b2p supports OpenAI, [ElevenLabs](https://elevenlabs.io/?from=tylerplesetz8843), and Azure OpenAI) and publish it to your podcast feed
-  ![[Screenshot 2024-10-23 at 10.28.17 AM.jpeg.png]]
+![](https://i.imgur.com/gZ4m6GE.png)
 ## Installation
 
 ### Docker Compose
@@ -80,7 +80,7 @@ networks: {}
 ### iOS Shortcut Setup
 1. Install the Shortcut using [this link](https://www.icloud.com/shortcuts/b68364e6e3874254b10f231a3b68a17e)
 2. Configure your Discord Webhook URL
-	![[Screenshot 2024-10-23 at 11.35.22 AM.jpeg.png]]
+![](https://i.imgur.com/ZxWa5jP.png)
 ## Pre-release disclaimer
 
 This is pre-release software and anything can break at any time. I make not guarantees about the stability of this software, forward-compatibility of updates, or integrity (both related to and independent of blog2pod). Essentially, use at your own risk and expect there will be rough edges for now.
