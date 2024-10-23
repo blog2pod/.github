@@ -86,7 +86,7 @@ networks: {}
 | `POD_IMAGE`         | b2pserve  | Yes                              | Artwork for your published podcast                                                                                                              |
 | `POD_AUTHOR`        | b2pserve  | Yes                              | Author of your published podcast                                                                                                                |
 
-### iOS Shortcut Setup
+### iOS Shortcut Setup (Optional, but recommended)
 1. Install the Shortcut using [this link](https://www.icloud.com/shortcuts/b68364e6e3874254b10f231a3b68a17e)
 2. Configure your Discord Webhook URL
 <img src="https://i.imgur.com/ZxWa5jP.png" alt="Image" width="300"/>
