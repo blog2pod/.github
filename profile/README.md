@@ -24,7 +24,8 @@ Once the url is shared, b2p will generate the audio using the AI platform you co
 ## Requirements
 - Discord Server that you manage (So you can add a bot)
 - Discord Bot (For passing URLs to blog2pod and receiving notifications)
-- API Key for OpenAI, Azure OpenAI, or ElevenLabs
+- Docker (to run the blog2pod backend)
+- API Key for OpenAI, Azure OpenAI, or ElevenLabs (So articles can be converted to audio)
 
 ## Installation
 
