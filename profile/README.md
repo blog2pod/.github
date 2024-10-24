@@ -173,4 +173,4 @@ Once you've set up Discord and Docker, you are ready to use blog2pod. Keep readi
 
 ## Pre-release disclaimer
 
-This is pre-release software and anything can break at any time. I make not guarantees about the stability of this software, forward-compatibility of updates, or integrity (both related to and independent of blog2pod). Essentially, use at your own risk and expect there will be rough edges for now.
+This is pre-release software and anything can break at any time. I make no guarantees about the stability of this software, forward-compatibility of updates, or integrity (both related to and independent of blog2pod). Essentially, use at your own risk and expect there will be rough edges for now.
