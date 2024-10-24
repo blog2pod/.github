@@ -136,6 +136,10 @@ networks: {}
 | `POD_IMAGE`         | b2pserve  | Yes                              | Artwork for your published podcast                                                                                                              |
 | `POD_AUTHOR`        | b2pserve  | Yes                              | Author of your published podcast                                                                                                                |
 
+Once you've set up Discord and Docker, you are ready to use blog2pod. Keep reading for optional configurations.
+
+## Optional Configurations
+
 ### iOS Shortcut Setup (Optional, but recommended)
 
 #### Create a Discord Webhook
@@ -164,6 +168,7 @@ networks: {}
 #### Configure the iOS Shortcut
 1. Install the Shortcut using [this link](https://www.icloud.com/shortcuts/b68364e6e3874254b10f231a3b68a17e)
 2. Enter your Discord Webhook URL
+
 <img src="https://i.imgur.com/ZxWa5jP.png" alt="Image" width="300"/>
 
 ## Pre-release disclaimer
