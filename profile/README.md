@@ -45,10 +45,11 @@ Before starting, make sure you have:
    - A confirmation popup will appear. Click **"Yes, do it!"** to confirm.
 3. Your bot is now created, and you'll see some settings for your bot.
 
-#### Step 3: Customize the Bot Settings (Optional)
+#### Step 3: Customize the Bot Settings
 1. **Bot Icon**: You can upload an avatar for your bot by clicking on the bot icon image.
 2. **Username**: By default, the bot's username will match the application name. You can change this by clicking the name.
 3. **Public Bot**: You can control whether other people can invite your bot to their servers by toggling the "Public Bot" option.
+4. **Intents**: Enable the toggles for **"Presence Intent"** and **"Message Content Intent"**.
 
 #### Step 4: Collect the Bot Token
 1. In the **"Bot"** section of your application, you'll see a section labeled **"Token"**.
