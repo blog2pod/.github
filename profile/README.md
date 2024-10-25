@@ -102,12 +102,12 @@ services:
     restart: unless-stopped
     volumes:
       - /path/to/podcasts/directory:/blog2pod/completed
-    image: tylerplesetz/blog2pod:oai
+    image: tylerplesetz/blog2pod:oai # TAG IS IMPORTANT
 
   b2pserve:
     container_name: b2pserve
     environment:
-      - BASEURL=<url>
+      - BASEURL=<url> # Trailing "/" is required
       - POD_TITLE=blog2pod
       - POD_DESCRIPTION="AI generated audio for articles that I don't have time to read ..."
       - POD_IMAGE=https://i.imgur.com/y2WVeWh.png
