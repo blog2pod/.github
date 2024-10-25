@@ -29,6 +29,8 @@ Before starting, make sure you have:
 
 ## Setup
 
+[Watch on YouTube](https://www.youtube.com/watch?v=v5Th1oN3I5o)
+
 ### Create a Discord Bot
 #### Step 1: Create a Discord Application
 1. Go to the [Discord Developer Portal](https://discord.com/developers/applications).
