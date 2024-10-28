@@ -128,7 +128,7 @@ networks: {}
 
 | Name                | Container | Required?                        | Notes                                                                                                                                           |
 | ------------------- | --------- | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| `TTS_VOICE`         | blog2pod  | Yes                              | Used to determine voice used by selected AI platform<br>- OpenAI uses names like "shimmer"<br>- ElevenLabs uses IDs like "XrExE9yKIg1WjnnlVkGX" |
+| `TTS_VOICE`         | blog2pod  | Yes                              | Used to determine voice used by selected AI platform<br>- OpenAI uses names like "shimmer"<br>- ElevenLabs uses IDs like "XrExE9yKIg1WjnnlVkGX"<br>- Case-sensitive|
 | `API_KEY`           | blog2pod  | Yes                              | API key for your selected AI platform                                                                                                           |
 | `DISCORD_BOT_TOKEN` | blog2pod  | Yes                              | Token for your Discord Bot                                                                                                                      |
 | `TTS_DEPLOYMENT`    | blog2pod  | latest: yes<br>oai: no<br>el: no | If you're using Azure OpenAI, you'll know what this is                                                                                          |
