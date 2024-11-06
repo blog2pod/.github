@@ -67,6 +67,7 @@ Before starting, make sure you have:
      - `VIEW_CHANNELS`
      - `SEND_MESSAGES`
      - `MANAGE_MESSAGES`
+     - `EMBED_LINKS`
      - `READ_MESSAGE_HISTORY`
      - `MENTION_EVERYONE`
      - `USE_SLASH_COMMANDS`
